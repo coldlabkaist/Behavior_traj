@@ -1,0 +1,14 @@
+ImageIO==2.37.2
+imageio-ffmpeg==0.6.0
+hmmlearn==0.3.3
+matplotlib==3.9.4
+numpy==1.26.4
+pandas==2.3.3
+pillow==10.4.0
+PyYAML==6.0.2
+scikit-learn==1.6.1
+scipy==1.13.1
+seaborn==0.13.2
+torch==2.1.2
+tqdm==4.67.1
+xgboost==2.1.4

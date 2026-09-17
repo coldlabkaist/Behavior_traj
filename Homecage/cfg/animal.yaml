@@ -1,0 +1,17 @@
+
+num_animals: 3
+animal_track_ids: ['track_0', 'track_1', 'track_2']
+
+kpt_names: ['Nose', 'Body_C', 'Ear_L', 'Ear_R', 'Neck', 'Tail']
+num_keypoints: 6
+
+body_center_keypoint: Body_C
+
+skeleton:
+  - [0, 4]
+  - [1, 4]
+  - [0, 2]
+  - [0, 3]
+  - [1, 5]
+  - [2, 4]
+  - [3, 4]

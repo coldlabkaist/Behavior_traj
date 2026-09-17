@@ -1,0 +1,70 @@
+# data/reference and data/roi are stable dataset identifiers.
+# datasets/paths.py resolves them under ../data/csv/Fig4B-G_FigS3-S7/.
+data:
+  data_dir: 'data/reference'
+  recursive: true
+  fps: 30.0
+  score_thresh: 0.5
+  interpolation_max_gap: 4
+  roi_normalize: true
+  roi_dir: 'data/roi'
+  roi_id: 'wall'
+  roi_missing: 'error'
+  apply_aspect_correction: true
+  frame_width: 1920
+  frame_height: 1080
+
+model:
+  hidden_dim: 128
+  latent_dim: 64
+  animal_projection_dim: 64
+  animal_temporal_hidden_dim: 64
+  pair_temporal_hidden_dim: 64
+  group_temporal_hidden_dim: 64
+  interaction:
+    relation_hidden_dim: 64
+  temporal:
+    num_layers: 2
+    kernel_size: 3
+    dropout: 0.1
+
+training:
+  seed: 42
+  deterministic: true
+  num_workers: 0
+  learning_rate: 5e-5
+  weight_decay: 1e-5
+  batch_size: 128
+  epochs: 100
+  clip_len: 30
+  clip_overlap: 0
+  cosine_tmax: 100
+  grad_clip: 1.0
+  use_amp: false
+  warmup_epochs: 15
+  checkpoint_interval: 10
+  checkpoint_dir: 'checkpoints_dae_v4'
+  validation_interval: 10
+  val_ratio: 0.2
+  train_clean_input_prob: 0.25
+  val_noisy_use_augmentation: true
+  val_clean_use_augmentation: false
+
+loss_weights:
+  lambda_recon: 1.0
+  lambda_group_speed: 1.0
+  lambda_pair_consistency: 0.02
+  lambda_group_consistency: 0.02
+  group_speed_huber_delta: 1.0
+  consistency_huber_delta: 1.0
+
+augmentation:
+  aug_schedule:
+    - start: 0
+      end: 40
+      noise_std: 0.004
+      scale_range: 0.004
+    - start: 40
+      end: 100
+      noise_std: 0.005
+      scale_range: 0.005

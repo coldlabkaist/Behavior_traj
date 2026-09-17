@@ -1,0 +1,14 @@
+keypoints:
+	- Nose
+	- Body_C
+	- Ear_L
+	- Ear_R
+	- Neck
+	- Tail
+
+alias_map:
+	Center: Body_C
+
+coord_mode: unit
+
+na_values: ["", "NA", "NaN", "nan", "None"]

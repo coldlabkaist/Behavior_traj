@@ -1,0 +1,368 @@
+{
+  "source_fps": 30,
+  "playback_fps": 10,
+  "frames_per_set": 30,
+  "notes": "Retained ten-set clean compilation. Set 1 M3 uses window 60075 for the movie only; Final Fig4C M3 is unchanged. Final submitted file identity has not been established.",
+  "clips": [
+    {
+      "set": 1,
+      "motif": 0,
+      "window_id": 1204,
+      "pose_csv": "data/cont/250917_3w_B6_HC_f_03.csv",
+      "start_frame": 9180,
+      "source_video": "250917_3w_B6_HC_f_03.avi",
+      "pose_npz": "analysis/output/Final/Fig4C/data/Fig4C_M0_pose.npz"
+    },
+    {
+      "set": 1,
+      "motif": 1,
+      "window_id": 14953,
+      "pose_csv": "data/cont/251020_8w_B6_HC_m_02.csv",
+      "start_frame": 19591,
+      "source_video": "251020_8w_B6_HC_m_02.avi",
+      "pose_npz": "analysis/output/Final/Fig4C/data/Fig4C_M1_pose.npz"
+    },
+    {
+      "set": 1,
+      "motif": 2,
+      "window_id": 40488,
+      "pose_csv": "data/cont/B6_VPA_09_m_02_cont_PND44_6w.csv",
+      "start_frame": 13020,
+      "source_video": "B6_VPA_09_m_02_PND44_cont_first.avi",
+      "pose_npz": "analysis/output/Final/Fig4C/data/Fig4C_M2_pose.npz"
+    },
+    {
+      "set": 1,
+      "motif": 3,
+      "window_id": 60075,
+      "pose_csv": "data/cont/B6_VPA_10_m_01_cont_PND29_4w.csv",
+      "start_frame": 9930,
+      "source_video": "B6_VPA_10_m_01_PND29_cont_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 2,
+      "motif": 0,
+      "window_id": 39211,
+      "pose_csv": "data/cont/B6_VPA_09_m_02_cont_PND30_4w.csv",
+      "start_frame": 25770,
+      "source_video": "B6_VPA_09_m_02_cont_PND30_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 2,
+      "motif": 1,
+      "window_id": 44499,
+      "pose_csv": "data/cont/B6_VPA_10_02_f_01_cont_PND29_4w.csv",
+      "start_frame": 24930,
+      "source_video": "B6_VPA_10_02_f_01_PND29_cont_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 2,
+      "motif": 2,
+      "window_id": 59972,
+      "pose_csv": "data/cont/B6_VPA_10_m_01_cont_PND29_4w.csv",
+      "start_frame": 6840,
+      "source_video": "B6_VPA_10_m_01_PND29_cont_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 2,
+      "motif": 3,
+      "window_id": 10807,
+      "pose_csv": "data/cont/251013_7w_B6_HC_f_02.csv",
+      "start_frame": 3751,
+      "source_video": "251013_7w_B6_HC_f_02.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 3,
+      "motif": 0,
+      "window_id": 1647,
+      "pose_csv": "data/cont/250917_3w_B6_HC_f_03.csv",
+      "start_frame": 22680,
+      "source_video": "250917_3w_B6_HC_f_03.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 3,
+      "motif": 1,
+      "window_id": 2357,
+      "pose_csv": "data/cont/250917_3w_B6_HC_m_02.csv",
+      "start_frame": 17911,
+      "source_video": "250917_3w_B6_HC_m_02.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 3,
+      "motif": 2,
+      "window_id": 11472,
+      "pose_csv": "data/cont/251013_7w_B6_HC_f_02.csv",
+      "start_frame": 23701,
+      "source_video": "251013_7w_B6_HC_f_02.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 3,
+      "motif": 3,
+      "window_id": 59959,
+      "pose_csv": "data/cont/B6_VPA_10_m_01_cont_PND29_4w.csv",
+      "start_frame": 6450,
+      "source_video": "B6_VPA_10_m_01_PND29_cont_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 4,
+      "motif": 0,
+      "window_id": 39108,
+      "pose_csv": "data/cont/B6_VPA_09_m_02_cont_PND30_4w.csv",
+      "start_frame": 22680,
+      "source_video": "B6_VPA_09_m_02_cont_PND30_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 4,
+      "motif": 1,
+      "window_id": 3472,
+      "pose_csv": "data/cont/250922_4w_B6_HC_f_02.csv",
+      "start_frame": 24390,
+      "source_video": "250922_4w_B6_HC_f_02.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 4,
+      "motif": 2,
+      "window_id": 11562,
+      "pose_csv": "data/cont/251013_7w_B6_HC_f_02.csv",
+      "start_frame": 26401,
+      "source_video": "251013_7w_B6_HC_f_02.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 4,
+      "motif": 3,
+      "window_id": 60847,
+      "pose_csv": "data/cont/B6_VPA_10_m_01_cont_PND36_5w.csv",
+      "start_frame": 5610,
+      "source_video": "B6_VPA_10_m_01_PND36_cont_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 5,
+      "motif": 0,
+      "window_id": 1666,
+      "pose_csv": "data/cont/250917_3w_B6_HC_f_03.csv",
+      "start_frame": 23250,
+      "source_video": "250917_3w_B6_HC_f_03.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 5,
+      "motif": 1,
+      "window_id": 2806,
+      "pose_csv": "data/cont/250922_4w_B6_HC_f_02.csv",
+      "start_frame": 4290,
+      "source_video": "250922_4w_B6_HC_f_02.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 5,
+      "motif": 2,
+      "window_id": 11086,
+      "pose_csv": "data/cont/251013_7w_B6_HC_f_02.csv",
+      "start_frame": 12121,
+      "source_video": "251013_7w_B6_HC_f_02.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 5,
+      "motif": 3,
+      "window_id": 44048,
+      "pose_csv": "data/cont/B6_VPA_10_02_f_01_cont_PND29_4w.csv",
+      "start_frame": 10890,
+      "source_video": "B6_VPA_10_02_f_01_PND29_cont_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 6,
+      "motif": 0,
+      "window_id": 2647,
+      "pose_csv": "data/cont/250917_3w_B6_HC_m_02.csv",
+      "start_frame": 26821,
+      "source_video": "250917_3w_B6_HC_m_02.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 6,
+      "motif": 1,
+      "window_id": 10586,
+      "pose_csv": "data/cont/251007_6w_B6_HC_f_03.csv",
+      "start_frame": 18870,
+      "source_video": "251007_6w_B6_HC_f_03.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 6,
+      "motif": 2,
+      "window_id": 39706,
+      "pose_csv": "data/cont/B6_VPA_09_m_02_cont_PND36_5w.csv",
+      "start_frame": 16740,
+      "source_video": "B6_VPA_09_m_02_PN36_cont_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 6,
+      "motif": 3,
+      "window_id": 55824,
+      "pose_csv": "data/cont/B6_VPA_10_f_01_cont_PND36_5w.csv",
+      "start_frame": 15390,
+      "source_video": "B6_VPA_10_f_01_PND36_cont_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 7,
+      "motif": 0,
+      "window_id": 39221,
+      "pose_csv": "data/cont/B6_VPA_09_m_02_cont_PND30_4w.csv",
+      "start_frame": 26070,
+      "source_video": "B6_VPA_09_m_02_cont_PND30_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 7,
+      "motif": 1,
+      "window_id": 2824,
+      "pose_csv": "data/cont/250922_4w_B6_HC_f_02.csv",
+      "start_frame": 4830,
+      "source_video": "250922_4w_B6_HC_f_02.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 7,
+      "motif": 2,
+      "window_id": 11378,
+      "pose_csv": "data/cont/251013_7w_B6_HC_f_02.csv",
+      "start_frame": 20881,
+      "source_video": "251013_7w_B6_HC_f_02.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 7,
+      "motif": 3,
+      "window_id": 41022,
+      "pose_csv": "data/cont/B6_VPA_09_m_02_cont_PND51_7w.csv",
+      "start_frame": 1410,
+      "source_video": "B6_VPA_09_m_02_PND51_cont_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 8,
+      "motif": 0,
+      "window_id": 39199,
+      "pose_csv": "data/cont/B6_VPA_09_m_02_cont_PND30_4w.csv",
+      "start_frame": 25410,
+      "source_video": "B6_VPA_09_m_02_cont_PND30_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 8,
+      "motif": 1,
+      "window_id": 43853,
+      "pose_csv": "data/cont/B6_VPA_10_02_f_01_cont_PND29_4w.csv",
+      "start_frame": 5040,
+      "source_video": "B6_VPA_10_02_f_01_PND29_cont_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 8,
+      "motif": 2,
+      "window_id": 39355,
+      "pose_csv": "data/cont/B6_VPA_09_m_02_cont_PND36_5w.csv",
+      "start_frame": 2820,
+      "source_video": "B6_VPA_09_m_02_PN36_cont_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 8,
+      "motif": 3,
+      "window_id": 59810,
+      "pose_csv": "data/cont/B6_VPA_10_m_01_cont_PND29_4w.csv",
+      "start_frame": 1980,
+      "source_video": "B6_VPA_10_m_01_PND29_cont_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 9,
+      "motif": 0,
+      "window_id": 1695,
+      "pose_csv": "data/cont/250917_3w_B6_HC_f_03.csv",
+      "start_frame": 24120,
+      "source_video": "250917_3w_B6_HC_f_03.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 9,
+      "motif": 1,
+      "window_id": 55568,
+      "pose_csv": "data/cont/B6_VPA_10_f_01_cont_PND36_5w.csv",
+      "start_frame": 7710,
+      "source_video": "B6_VPA_10_f_01_PND36_cont_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 9,
+      "motif": 2,
+      "window_id": 11126,
+      "pose_csv": "data/cont/251013_7w_B6_HC_f_02.csv",
+      "start_frame": 13321,
+      "source_video": "251013_7w_B6_HC_f_02.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 9,
+      "motif": 3,
+      "window_id": 44142,
+      "pose_csv": "data/cont/B6_VPA_10_02_f_01_cont_PND29_4w.csv",
+      "start_frame": 13890,
+      "source_video": "B6_VPA_10_02_f_01_PND29_cont_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 10,
+      "motif": 0,
+      "window_id": 2532,
+      "pose_csv": "data/cont/250917_3w_B6_HC_m_02.csv",
+      "start_frame": 23371,
+      "source_video": "250917_3w_B6_HC_m_02.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 10,
+      "motif": 1,
+      "window_id": 33278,
+      "pose_csv": "data/cont/B6_VPA_09_m_01_cont_PND30_4w.csv",
+      "start_frame": 7770,
+      "source_video": "B6_VPA_09_m_01_cont_PND30_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 10,
+      "motif": 2,
+      "window_id": 60794,
+      "pose_csv": "data/cont/B6_VPA_10_m_01_cont_PND36_5w.csv",
+      "start_frame": 3960,
+      "source_video": "B6_VPA_10_m_01_PND36_cont_first.avi",
+      "pose_npz": null
+    },
+    {
+      "set": 10,
+      "motif": 3,
+      "window_id": 61407,
+      "pose_csv": "data/cont/B6_VPA_10_m_01_cont_PND36_5w.csv",
+      "start_frame": 22530,
+      "source_video": "B6_VPA_10_m_01_PND36_cont_first.avi",
+      "pose_npz": null
+    }
+  ]
+}
