@@ -1,5 +1,7 @@
 # MovAl behavior analyses
 
+Archived release **v1.0.0**: [10.5281/zenodo.22810180](https://doi.org/10.5281/zenodo.22810180).
+
 Analysis and plotting code for the MovAl behavioral study.
 
 | Project | Analysis | Paper panels |
