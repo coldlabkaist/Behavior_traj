@@ -24,3 +24,7 @@ This repository contains code and configuration only. Data, results, and trained
 are supplied separately and must be placed at the paths listed in each project README.
 Raw CSV files belong under `data/csv/<panel group>` and videos under
 `data/video/<panel group>`. Original videos and SiMBA models are available on request.
+
+## License
+
+Code in this repository is released under the [MIT License](LICENSE).
