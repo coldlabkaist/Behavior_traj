@@ -1,0 +1,25 @@
+{
+  "title": "Behavior_traj: behavioral analyses for MovAl",
+  "upload_type": "software",
+  "description": "Analysis, plotting, preprocessing, and training code for the MovAl behavioral study, including homecage behavior organization, tracking benchmarks, direct interaction, and behavioral assays. This release contains code and configuration only; data, analysis results, and trained models are supplied separately.",
+  "creators": [
+    {
+      "name": "Kim, Sunjin",
+      "affiliation": "KAIST CoLD lab",
+      "orcid": "0009-0009-2125-3246"
+    },
+    {
+      "name": "Jung, Yejin",
+      "affiliation": "KAIST CoLD lab"
+    }
+  ],
+  "version": "1.0.0",
+  "license": "mit",
+  "access_right": "open",
+  "keywords": [
+    "animal behavior",
+    "behavioral analysis",
+    "pose estimation",
+    "MovAl"
+  ]
+}
