@@ -1,15 +1,16 @@
 # Preprocessing
 
-Tracking CSV의 품질 요약과 Body_C 보간 도구입니다.
+Tools for tracking-CSV quality summaries and Body_C interpolation.
 
-- `report_data.py`: 파일·개체별 결측 및 중복 프레임 요약
-- `interpolate_body_c.py`: 중복 처리, 프레임 보충, Body_C 보간
+- `report_data.py`: summarize missing observations and duplicate frames by file and animal.
+- `interpolate_body_c.py`: handle duplicates, fill missing frame rows, and interpolate Body_C.
 
-`behavior_assay` 폴더에서 실행합니다.
+Run from the `behavior_assay` directory:
 
 ```powershell
 python -B -m preprocessing.report_data --help
 python -B -m preprocessing.interpolate_body_c --help
 ```
 
-논문 그림·통계의 기본 재현에는 [분석 실행기](../analysis/run/README.md)를 사용합니다.
+For default paper figure and statistical reproduction, use the
+[analysis runner](../analysis/run/README.md).
